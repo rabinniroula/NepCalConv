@@ -1,6 +1,6 @@
 {
   "name": "nepcalconv",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "For converting dates from Bikram Samvat to Gregorian Calendar and vice versa.",
   "main": "index.js",
   "scripts": {
