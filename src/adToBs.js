@@ -1,5 +1,5 @@
 const { bsData, adStart } = require('./data.js')
-const {dateString} = require('./helper')
+const { dateString } = require('./helper')
 
 function adToBs(year, month, day) {
     const start = new Date(adStart)
@@ -37,4 +37,15 @@ function adToBs(year, month, day) {
     return { year: endYear, month: endMonth, day: endDay }
 }
 
-module.exports = adToBs;
+function getTodayInBS() {
+    date = new Date()
+
+    let conv = adToBs(date.getFullYear(), date.getMonth() + 1, date.getDate())
+
+    return { year: conv.year, month: conv.month, day: conv.day, weekday: date.getDay() }
+}
+
+module.exports = {
+    adToBs,
+    getTodayInBS
+}

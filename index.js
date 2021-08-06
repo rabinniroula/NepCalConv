@@ -1,10 +1,12 @@
-const adToBs = require('./src/adToBs');
-const bsToAd = require('./src/bsToAd');
-const {getDay, getToday} = require('./src/helper')
+const { adToBs, getTodayInBS } = require('./src/adToBs');
+const { bsToAd, getBsMonthInfo } = require('./src/bsToAd');
+const { getday, getToday } = require('./src/helper')
 
 module.exports = {
     adToBs,
     bsToAd,
-    getDay,
-    getToday
+    getday,
+    getToday,
+    getTodayInBS,
+    getBsMonthInfo
 }

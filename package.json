@@ -1,6 +1,6 @@
 {
   "name": "nepcalconv",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "For converting dates from Bikram Samvat to Gregorian Calendar and vice versa.",
   "main": "index.js",
   "scripts": {
@@ -21,5 +21,7 @@
     "calendar"
   ],
   "author": "Rabin Niroula",
-  "license": "Apache License 2.0"
+  "license": "Apache License 2.0",
+  "homepage": "https://github.com/rabinniroula/NepCalConv",
+  "repository": "https://github.com/rabinniroula/NepCalConv"
 }

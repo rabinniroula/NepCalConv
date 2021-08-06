@@ -24,5 +24,7 @@ console.log(converter.bsToAd(2078, 10, 14))
 console.log(converter.bsToAd(1978, 1, 1))
 
 
-console.log(converter.getDay('np', 2021, 8, 6))
+console.log(converter.getday(2021, 8, 6))
 console.log(converter.getToday())
+console.log(converter.getTodayInBS())
+console.log(converter.getBsMonthInfo(2078, 4))
