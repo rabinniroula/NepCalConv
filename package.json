@@ -1,0 +1,25 @@
+{
+  "name": "nepcalconv",
+  "version": "1.0.0",
+  "description": "For converting dates from Bikram Samvat to Gregorian Calendar and vice versa.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "date",
+    "converter",
+    "nepali date",
+    "miti",
+    "विक्रम",
+    "संवत",
+    "bs",
+    "bikram",
+    "sambat",
+    "samvat",
+    "nepali",
+    "calendar"
+  ],
+  "author": "Rabin Niroula",
+  "license": "Apache License 2.0"
+}
